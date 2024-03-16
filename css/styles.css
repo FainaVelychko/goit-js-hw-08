@@ -16,3 +16,13 @@
 
   object-fit: cover;
 }
+.custom-cursor {
+  cursor: url('./cursor.svg'), auto;
+}
+
+.gallery-image:hover,
+.gallery-image:focus {
+  width: 376px;
+  height: 208px;
+  margin: -4px -8px;
+}
